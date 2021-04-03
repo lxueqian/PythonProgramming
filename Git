@@ -1,0 +1,14 @@
+1. gitignore
+Git clone website
+
+在文件夹下面运行
+Git pull 
+Git status
+https://blog.csdn.net/zwkkkk1/article/details/83550032
+git rm -r --cached .
+git add .
+git commit -m "update .gitignore"(随便起名)
+
+git push origin master
+
+Gitignore文件中最好只写自己的绝对路径的文件
