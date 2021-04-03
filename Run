@@ -1,0 +1,8 @@
+1、python -m xxx.py
+•	python xxx.py，直接运行xxx.py文件
+•	python -m xxx.py，把xxx.py当做模块运行
+
+•	当加上-m参数时，Python会把当前工作目录添加到sys.path中；
+而不加-m时，Python则会把脚本所在目录添加到sys.path中。
+•	当加上-m参数时，Python会先将模块或者包导入，然后再执行。
+•	__main__.py文件是一个包或者目录的入口程序。不管是用python package还是用python -m package运行，__main__.py文件总是被执行。 
